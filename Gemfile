@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.3'
 #gem 'pg', '~> 1.1', '>= 1.1.4' 
 #gem 'sqlite3', '~> 1.4', '>= 1.4.1'
 # Use Puma as the app server
->>>>>>> 7a4ae03214eac650bb288765f7a81dec0e59f76c
+# >>>>>>> 7a4ae03214eac650bb288765f7a81dec0e59f76c
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
