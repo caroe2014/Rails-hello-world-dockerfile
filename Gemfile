@@ -18,7 +18,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'railties', '~>5.2.3'
 
 
-gem 'shrine', '~> 2.6' 
+#gem 'shrine', '~> 2.6' 
 
 
 group :development, :test do
