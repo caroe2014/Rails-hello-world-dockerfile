@@ -6,21 +6,21 @@ ruby '2.6.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 # Use postgresql as the database for Active Record
-# gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem "bootstrap-switch-rails"
-# gem "select2-rails"
+gem "select2-rails"
 gem 'bootstrap', '~> 5.0.0.alpha1'
 gem 'rails-assets-sweetalert2', '~> 5.1.1', source: 'https://rails-assets.org'
-# gem 'sweet-alert2-rails'
-# gem 'raphaeljs-rails'
+gem 'sweet-alert2-rails'
+gem 'raphaeljs-rails'
 gem 'font-awesome-sass', '~> 5.13.0'
 gem 'metismenu-rails', github: 'lanvige/metismenu-rails'
-# gem 'pace-rails'
+gem 'pace-rails'
 gem 'popper_js', '~> 1.16.0'
 gem 'bootstrap-popover-rails'
 gem 'simple_form'
@@ -31,18 +31,23 @@ gem 'mini_racer', platforms: :ruby
 gem "haml-rails", "~> 2.0"
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
-# gem 'fancybox-rails'
+gem 'fancybox-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'shrine', '~> 2.6'
-
+# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 4.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 # Use ActiveStorage variant
-
+# gem 'mini_magick', '~> 4.8'
 gem 'carrierwave'
 gem 'jquery-rails'
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
